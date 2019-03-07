@@ -1,4 +1,4 @@
-
+l
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -14,8 +14,10 @@
     <!-- Bootstrap core CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
 
+
+
     <!-- Custom styles for this template -->
-    <link href="blog.css" rel="stylesheet">
+       <link href="<?php bloginfo('template_directory'); ?>/css/blog.css"rel="stylesheet">
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
